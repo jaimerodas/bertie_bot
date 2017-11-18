@@ -4,7 +4,7 @@ require 'rack/test'
 
 ENV['RACK_ENV'] = 'test'
 
-require_relative '../app/bertie_bot'
+require_relative '../app'
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods
